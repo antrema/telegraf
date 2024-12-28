@@ -1,4 +1,4 @@
-FROM telegraf:1.33.0
+FROM telegraf:1.33.0-alpine
 
 COPY antrema-cassl.crt /usr/local/share/ca-certificates/antrema-cassl.crt
 COPY antrema-caroot.crt /usr/local/share/ca-certificates/antrema-caroot.crt
